@@ -1,0 +1,13 @@
+<h1>edit post <%= @post.title %></h1>
+
+<%= form_for(@post, :url => {:action => 'update', :id => @post.id}) do |f| %>
+  <p>
+    Title: <%= f.text_field 'title' %>
+</p>
+  <p>
+    Body: <%= f.text_area 'description' %>
+  </p>
+  <p>
+    <%= f.submit "Save" %>
+  </p>
+<% end %>

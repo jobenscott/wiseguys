@@ -1,0 +1,10 @@
+<h1><%=h @post.title %></h1>
+
+<blockquote>
+<%=h @post.description %>
+</blockquote>
+
+<p>Created: <i><%= time_ago_in_words(@post.created_at) %> ago</i></p>
+
+<%= link_to 'Edit', :action => 'edit', :id => @post.id %> |
+<%= link_to 'Back', :action => nil %>
