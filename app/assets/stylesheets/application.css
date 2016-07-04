@@ -13,3 +13,209 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+			
+		}
+
+		a, a:hover, a:active, a:visited, a:focus {
+			text-decoration: none;
+			/*color: white;*/
+		}
+
+		.logo {
+			position: absolute;
+			margin: 0 0 0 7px;
+			width: 67.5px;
+			display: inline-block;
+		}
+
+		.logo-title {
+			position: absolute;
+			display: inline-block;
+			margin: 20px 0 0 70px;
+			color: #00264d;
+			font-size: 1.25em;
+			font-family: 'Muli', 'Rockwell', 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+		}
+
+		.col-4, .col-8 {
+			display: inline-block;
+			height: 70px;
+		}
+
+		.col-8 {
+			right: 0px;
+		}
+
+		.col-md-2 {
+			overflow: hidden;
+		}
+
+		.col-md-10 {
+			padding: 0;
+		}
+
+		.navbar-links {
+			line-height: 2.3;
+			font-size: 2em;
+			font-family: 'Muli', 'Rockwell', 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+			text-decoration: none;
+			/*background-color: #f2f2f2;*/
+			/*border-bottom: none;
+			border-top: none;*/
+			width: 200px;
+			display: inline-block;
+			height: 70px;
+			float: right;
+			color: #b3b3b3;
+			/*text-shadow: 0 -1px 0 #888;*/
+            text-align: center;
+            transition: 
+            	-webkit-box-shadow 0.25s, 
+            	box-shadow 0.25s, 
+            	background-color 0.25s, 
+            	text-shadow 0.25s, 
+            	color 0.25s;
+            z-index: 50;
+		}
+
+		.navbar-links:active {
+			color: #999999;
+			-webkit-box-shadow: none;
+            background-color: hsl(0, 0%, 99%);
+            /*text-shadow: none;*/
+            text-decoration: none;
+            padding: none;
+            box-shadow: inset 3px 0 10px -5px rgba(0,0,0,0.5),inset -3px 0 10px -5px rgba(0,0,0,0.5);
+            transition: background-color 0.25s;
+		}
+
+		.navbar-links:focus {
+			color: #808080;
+		}
+
+		.navbar-links:hover {
+		-webkit-box-shadow: none;
+            background-color: hsl(0, 0%, 99%);
+            /*text-shadow: none;*/
+            text-decoration: none;
+            color: #999999;
+            padding: none;
+            box-shadow: inset 3px 0 10px -5px rgba(0,0,0,0.5),inset -3px 0 10px -5px rgba(0,0,0,0.5);
+            transition: background-color 0.25s;
+        }
+		.nav-row {
+			/*shadow*/
+			position: relative;
+			-webkit-box-shadow: 0 6px 6px -6px black;
+	   		-moz-box-shadow: 0 6px 6px -6px black;
+	        box-shadow: 0 6px 6px -6px black;
+	        z-index: 100;
+		}
+
+		.nav-links {
+			line-height: 2.3;
+			font-size: 2em;
+			font-family: 'Rockwell', 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+			text-decoration: none;
+			/*background-color: #f2f2f2;*/
+			/*border-bottom: none;
+			border-top: none;*/
+			width: 100%;
+			display: block;
+			height: 70px;
+			float: right;
+			color: #b3b3b3;
+			/*text-shadow: 0 -1px 0 #888;*/
+            text-align: center;
+            transition: 
+            	-webkit-box-shadow 0.25s, 
+            	box-shadow 0.25s, 
+            	background-color 0.25s, 
+            	text-shadow 0.25s, 
+            	color 0.25s;
+            z-index: 50;
+		}
+
+		.nav-links:hover {
+			/*border-right: solid #808080 0.1px;*/
+			-webkit-box-shadow: none;
+            background-color: hsl(0, 0%, 99%);
+            /*text-shadow: none;*/
+            text-decoration: none;
+            color: #999999;
+            padding: none;
+            box-shadow: inset 3px 0 10px -5px rgba(0,0,0,0.5),inset -3px 0 10px -5px rgba(0,0,0,0.5);
+            transition: background-color 0.25s;
+		}
+
+		.nav-links:active {
+			transition: background-color 0.25s;
+		}
+
+		.nav-links:focus {
+			color: #808080;
+			-webkit-box-shadow: none;
+            box-shadow: inset 1px 4px 9px -6px;
+            background-color: #f2f2f2;
+		}
+
+		.nl3 {
+			border-right: none;  
+		}
+
+		.nl2 {
+			border-right: none;  
+		}
+
+		.bud-selector {
+			position: relative;
+			background-color: #595959;
+			height: 1000px;
+			z-index: 0;
+			padding: 0 !important;
+		}
+
+		.box-header {
+			float: right;
+			padding-right: 35px;
+		}
+
+		.test-click {
+			line-height: 2.3;
+			font-size: 2em;
+			font-family: 'Rockwell', 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+			text-decoration: none;
+			width: 300px;
+			height: 70px;
+			text-align: center;
+            transition: 
+            	-webkit-box-shadow 0.25s, 
+            	box-shadow 0.25s, 
+            	background-color 0.25s, 
+            	text-shadow 0.25s, 
+            	color 0.25s;
+			margin-bottom: 20px;
+		}
+
+		.product-selector {
+			padding: 25px 0 0 0;
+			width: 500px;
+			right: 200px;
+		}
+
+		.hero-section {
+			/*background-color: #F2F2F2;*/
+			height: 1000px;
+		}
+
+		.sativa-links {
+			width: 200px;
+			height: 50px;
+			margin: 5px 0 5% 0;
+			background-color: black;
+			color: white;
+			/*position: fixed;*/
+			/*display: block;*/
+		}
